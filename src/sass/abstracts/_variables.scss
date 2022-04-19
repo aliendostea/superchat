@@ -1,0 +1,22 @@
+// COLORS
+$color-primary: #040404;
+$color-secondary: #dc3030;
+$color-tertiary: #fae7d4;
+
+// FONT
+$default-font-size: 1.6rem;
+
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "MonumentExtended", sans-serif;
+$font-tertiary: "Cinzel", serif;
+
+// BTN border radius
+$btn-border-radius: 5rem;
+$btn-borderline: 2px solid $color-primary;
+$btn-borderline-hover: 2px solid $color-secondary;
+
+// z-index
+$bg-noise: 1;
+$z-index-normal: 5;
+$z-index-medium: 50;
+$z-index-high: 500;

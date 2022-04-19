@@ -1,0 +1,50 @@
+.test__responsive {
+  width: 15rem;
+  display: block;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background-color: rgb(130, 172, 172);
+  position: fixed;
+  top: 0;
+  left: 250px;
+  z-index: 100010;
+
+  &--2 {
+    left: 0;
+  }
+
+  @include respond(tab-between-land-desktop) {
+    background-color: rgb(216, 99, 31);
+    color: rgb(18, 34, 4);
+  }
+  @include respond(tab-land) {
+    background-color: rgb(33, 77, 172);
+    color: rgb(219, 214, 250);
+  }
+  @include respond(tab-between-port-land) {
+    background-color: rgb(172, 33, 110);
+    color: rgb(10, 65, 35);
+  }
+  @include respond(between-pc-and-tab-port) {
+    background-color: rgb(24, 119, 1);
+    color: rgb(178, 179, 178);
+  }
+  @include respond(tab-port) {
+    background-color: rgb(172, 135, 33);
+    color: rgb(65, 43, 10);
+  }
+  @include respond(phone) {
+    background-color: rgb(43, 49, 49);
+    color: rgb(255, 169, 169);
+  }
+  @include respond(mini-phone) {
+    background-color: rgb(50, 206, 206);
+    color: rgb(167, 67, 67);
+  }
+  @include respond(big-desktop) {
+    background-color: rgb(95, 160, 52);
+    color: rgb(18, 34, 4);
+  }
+}
